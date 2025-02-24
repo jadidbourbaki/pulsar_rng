@@ -1,0 +1,2926 @@
+This upload contains the following files: 
+EPTA-DR2/
+├── clockfiles/
+│   ├── ncyobs2obspm.clk
+│   ├── tai2tt_bipm2020.clk
+│   └── tai2tt_bipm2021.clk
+├── DR2full/
+│   ├── J0030+0451/
+│   │   ├── J0030+0451.par
+│   │   ├── J0030+0451_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0030-Lband.tpl
+│   │       ├── 0030-Sband.tpl
+│   │       ├── 0030_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0030+0451_EBPP_1360MHz.std
+│   │       ├── J0030+0451_EBPP_1410MHz.std
+│   │       └── J0030+0451_EBPP_2639MHz.std
+│   ├── J0613-0200/
+│   │   ├── J0613-0200.par
+│   │   ├── J0613-0200_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0613-Lband.tpl
+│   │       ├── 0613-Sband.tpl
+│   │       ├── 0613_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0613-0200_EBPP_1360MHz.std
+│   │       ├── J0613-0200_EBPP_1410MHz.std
+│   │       ├── J0613-0200_EBPP_2639MHz.std
+│   │       ├── J0613-0200_jbroach_1532.std
+│   │       ├── J0613-0200_jbroach_334.std
+│   │       ├── J0613-0200_L_band.sm
+│   │       ├── J0613-0200_S_band.std
+│   │       ├── WSRT.P1.0613.1380-64.txt
+│   │       ├── WSRT.P1.0613.1380-64.txt.ascii
+│   │       ├── WSRT.P1.0613.328-64.txt
+│   │       ├── WSRT.P1.0613.328-64.txt.ascii
+│   │       ├── WSRT.P1.0613.382-64.txt
+│   │       └── WSRT.P1.0613.382-64.txt.ascii
+│   ├── J0751+1807/
+│   │   ├── J0751+1807.par
+│   │   ├── J0751+1807_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0751-Lband.tpl
+│   │       ├── 0751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0751+1807_EBPP_1360.std
+│   │       ├── J0751+1807_EBPP_1410.std
+│   │       ├── J0751+1807_EBPP_2639.std
+│   │       └── WSRT.P1.0751.1380.txt
+│   ├── J0900-3144/
+│   │   ├── J0900-3144.par
+│   │   ├── J0900-3144_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 0900-Lband.tpl
+│   │       ├── 0900-Sband.tpl
+│   │       ├── 0900_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1012+5307/
+│   │   ├── J1012+5307.par
+│   │   ├── J1012+5307_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1012-Lband.tpl
+│   │       ├── 1012-Sband.tpl
+│   │       ├── 1012_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1012+5307_EBPP_1360MHz.std
+│   │       ├── J1012+5307_EBPP_1410MHz.std
+│   │       ├── J1012+5307_EBPP_2639MHz.std
+│   │       ├── J1012+5307_jbroach_1532.std
+│   │       ├── WSRT.P1.1012.1380.1-64.txt
+│   │       ├── WSRT.P1.1012.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1012.1380.2-128.txt
+│   │       ├── WSRT.P1.1012.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1012.328-64.txt
+│   │       ├── WSRT.P1.1012.328-64.txt.ascii
+│   │       ├── WSRT.P1.1012.382-64.txt
+│   │       └── WSRT.P1.1012.382-64.txt.ascii
+│   ├── J1022+1001/
+│   │   ├── J1022+1001.par
+│   │   ├── J1022+1001_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.1420.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1022-Lband.tpl
+│   │       ├── 1022_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1022+1001_EBPP_1360MHz.std
+│   │       ├── J1022+1001_EBPP_1410MHz.std
+│   │       ├── J1022+1001_EBPP_2639MHz.std
+│   │       ├── J1022+1001_P200-3.tim
+│   │       ├── J1022+1001_P217-3.tim
+│   │       ├── J1022+1001_P217.added
+│   │       ├── J1022+1001_P217_Template.sm
+│   │       ├── J1022+1001_S110-1.tim
+│   │       ├── J1022+1001_S110_Template.added
+│   │       ├── J1022+1001_S110_Template.sm
+│   │       ├── J1022+1001_S60-2.tim
+│   │       ├── J1022+1001_S60_Template.added
+│   │       ├── J1022+1001_S60_Template.sm
+│   │       ├── WSRT.P1.1022.1380-256.txt
+│   │       ├── WSRT.P1.1022.1380-256.txt.ascii
+│   │       ├── WSRT.P1.1022.323-256.txt
+│   │       ├── WSRT.P1.1022.323-256.txt.ascii
+│   │       ├── WSRT.P1.1022.367-256.txt
+│   │       └── WSRT.P1.1022.367-256.txt.ascii
+│   ├── J1024-0719/
+│   │   ├── J1024-0719.par
+│   │   ├── J1024-0719_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1200.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1024-Lband.tpl
+│   │       ├── 1024-Sband.tpl
+│   │       ├── 1024_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1024-0719_EBPP_1360MHz.std
+│   │       ├── J1024-0719_EBPP_1410MHz.std
+│   │       ├── J1024-0719_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1024.1380-128.txt
+│   │       └── WSRT.P1.1024.1380-128.txt.ascii
+│   ├── J1455-3330/
+│   │   ├── J1455-3330.par
+│   │   ├── J1455-3330_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1455-Lband.tpl
+│   │       ├── 1455_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1600-3053/
+│   │   ├── J1600-3053.par
+│   │   ├── J1600-3053_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1600-Lband.tpl
+│   │       ├── 1600-Sband.tpl
+│   │       ├── 1600_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1600-3053_jbroach_1532.std
+│   │       ├── NUPPI_1484_F4T_smoothed.prof
+│   │       ├── NUPPI_1854_F4T_smoothed.prof
+│   │       ├── NUPPI_2154_F4T_smoothed.prof
+│   │       ├── NUPPI_2539_F4T_smoothed.prof
+│   │       ├── WSRT.P1.1600.1380-64.txt
+│   │       └── WSRT.P1.1600.1380-64.txt.ascii
+│   ├── J1640+2224/
+│   │   ├── J1640+2224.par
+│   │   ├── J1640+2224_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   └── WSRT.P1.367.tim
+│   │   └── tpl/
+│   │       ├── 1640-Lband.tpl
+│   │       ├── 1640_1600.tpl
+│   │       ├── 1640aligned.std
+│   │       ├── 1640aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1640+2224_EBPP_1360MHz.std
+│   │       ├── J1640+2224_EBPP_1410MHz.std
+│   │       ├── J1640+2224_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1640.1380-64.txt
+│   │       └── WSRT.P1.1640.1380-64.txt.ascii
+│   ├── J1713+0747/
+│   │   ├── J1713+0747.par
+│   │   ├── J1713+0747_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.DFB.5000.tim
+│   │   │   ├── JBO.MK2.1520.2.tim
+│   │   │   ├── JBO.MK2.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   ├── WSRT.P1.840.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   ├── WSRT.P2.2273.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1713-Lband.tpl
+│   │       ├── 1713-Sband.tpl
+│   │       ├── 1713_1600.tpl
+│   │       ├── EFF.P217_CH0.std
+│   │       ├── EFF.P217_CH1.std
+│   │       ├── EFF.S110_template.std
+│   │       ├── EFF.S60_template.std
+│   │       ├── J1713+0747_EBPP_1360MHz.std
+│   │       ├── J1713+0747_EBPP_1410MHz.std
+│   │       ├── J1713+0747_EBPP_2639MHz.std
+│   │       ├── J1713+0747_jbroach_1532.std
+│   │       ├── J1713+0747_jbroach_334.std
+│   │       ├── WSRT.P1.1713.1380.1-64.txt
+│   │       ├── WSRT.P1.1713.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1713.1380.2-128.txt
+│   │       ├── WSRT.P1.1713.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1713.2273-128.txt
+│   │       ├── WSRT.P1.1713.2273-128.txt.ascii
+│   │       ├── WSRT.P1.1713.840-64.txt
+│   │       └── WSRT.P1.1713.840-64.txt.ascii
+│   ├── J1730-2304/
+│   │   ├── J1730-2304.par
+│   │   ├── J1730-2304_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1730-Lband.tpl
+│   │       ├── 1730-Sband.tpl
+│   │       ├── 1730_1600.tpl
+│   │       ├── 1730aligned.std
+│   │       ├── 1730aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1730-2304_EBPP_1360MHz.std
+│   │       ├── J1730-2304_EBPP_1410MHz.std
+│   │       └── J1730-2304_EBPP_2639MHz.std
+│   ├── J1738+0333/
+│   │   ├── J1738+0333.par
+│   │   ├── J1738+0333_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1738-Lband.tpl
+│   │       ├── 1738_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1744-1134/
+│   │   ├── J1744-1134.par
+│   │   ├── J1744-1134_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1744-Lband.tpl
+│   │       ├── 1744-Sband.tpl
+│   │       ├── 1744_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1744-1134_EBPP_1360MHz.std
+│   │       ├── J1744-1134_EBPP_1410MHz.std
+│   │       ├── J1744-1134_EBPP_2639MHz.std
+│   │       ├── J1744-1134_jbroach_1532.std
+│   │       ├── WSRT.P1.1744.323-64.txt
+│   │       ├── WSRT.P1.1744.323-64.txt.ascii
+│   │       ├── WSRT.P1.1744.367-64.txt
+│   │       └── WSRT.P1.1744.367-64.txt.ascii
+│   ├── J1751-2857/
+│   │   ├── J1751-2857.par
+│   │   ├── J1751-2857_all.tim
+│   │   ├── J1751-withoutBON128.par
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1400.tim.org
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── TOAs_BON_1398_DFTp.tim
+│   │   └── tpl/
+│   │       ├── 1751-Lband.tpl
+│   │       ├── 1751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1751-2857_jbroach_1532.std
+│   ├── J1801-1417/
+│   │   ├── J1801-1417.par
+│   │   ├── J1801-1417_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1801-Lband.tpl
+│   │       ├── 1801_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1801-1417_jbroach_1532.std
+│   ├── J1804-2717/
+│   │   ├── J1804-2717.par
+│   │   ├── J1804-2717_all.tim
+│   │   └── tims/
+│   │       ├── JBO.DFB.1400.tim
+│   │       ├── JBO.DFB.1520.tim
+│   │       ├── JBO.ROACH.1520.tim
+│   │       ├── NRT.BON.1400.tim
+│   │       ├── NRT.BON.1600.tim
+│   │       ├── NRT.BON.2000.tim
+│   │       └── NRT.NUPPI.1484.tim
+│   ├── J1843-1113/
+│   │   ├── J1843-1113.par
+│   │   ├── J1843-1113_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1843-1113-Lband.tpl
+│   │       ├── 1843_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── WSRT.P1.1843.1380-64.txt
+│   │       └── WSRT.P1.1843.1380-64.txt.ascii
+│   ├── J1857+0943/
+│   │   ├── J1857+0943.par
+│   │   ├── J1857+0943_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1855-Lband.tpl
+│   │       ├── 1855-Sband.tpl
+│   │       ├── 1855_1600.tpl
+│   │       ├── B1855+09_P217_Template.sm
+│   │       ├── B1855+09_S110_Template.sm
+│   │       ├── B1855+09_S60_Template.sm
+│   │       ├── J1857+0943_EBPP_1360MHz.std
+│   │       ├── J1857+0943_EBPP_1410MHz.std
+│   │       ├── J1857+0943_EBPP_2639MHz.std
+│   │       ├── puma1std.1855.22cm.txt
+│   │       ├── puma1std.1855.22cm.txt.ascii
+│   │       ├── WSRT.P1.1855.2273-128.txt
+│   │       └── WSRT.P1.1855.2273-128.txt.ascii
+│   ├── J1909-3744/
+│   │   ├── J1909-3744.par
+│   │   ├── J1909-3744_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1909-Lband.tpl
+│   │       ├── 1909-Sband.tpl
+│   │       └── 1909_1600.tpl
+│   ├── J1910+1256/
+│   │   ├── J1910+1256.par
+│   │   ├── J1910+1256_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1910-Lband.tpl
+│   │       ├── 1910_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1910+1256_jbroach_1532.std
+│   ├── J1911+1347/
+│   │   ├── J1911+1347.par
+│   │   ├── J1911+1347_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1911+1347-Lband.tpl
+│   │       ├── 1911+1347_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1911+1347_jbroach_1532.std
+│   │       ├── J1911+1807_P217_Template.sm
+│   │       └── J1911+1807_S110_Template.sm
+│   ├── J1918-0642/
+│   │   ├── J1918-0642.par
+│   │   ├── J1918-0642_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── J1918-0642_jbroach_1532.std
+│   │       ├── P217_added.sm
+│   │       └── S110_added.sm
+│   ├── J2124-3358/
+│   │   ├── J2124-3358.par
+│   │   ├── J2124-3358_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 2124-Lband.tpl
+│   │       ├── 2124-Sband.tpl
+│   │       ├── 2124_1600.tpl
+│   │       └── dfb1520.std
+│   └── J2322+2057/
+│       ├── J2322+2057.par
+│       ├── J2322+2057_all.tim
+│       ├── tims/
+│       │   ├── EFF.P200.1380.tim
+│       │   ├── EFF.P217.1380.tim
+│       │   ├── EFF.S110.2487.tim
+│       │   ├── JBO.DFB.1400.tim
+│       │   ├── JBO.DFB.1520.tim
+│       │   ├── JBO.ROACH.1520.tim
+│       │   ├── NRT.BON.1400.tim
+│       │   ├── NRT.BON.1600.tim
+│       │   └── NRT.NUPPI.1484.tim
+│       └── tpl/
+│           ├── 2322-Lband.tpl
+│           ├── 2322_1600.tpl
+│           ├── 2322_tpl.ps
+│           └── dfb1520.std
+├── DR2full+/
+│   ├── J0030+0451/
+│   │   ├── J0030+0451.par
+│   │   ├── J0030+0451_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0030-Lband.tpl
+│   │       ├── 0030-Sband.tpl
+│   │       ├── 0030_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0030+0451_EBPP_1360MHz.std
+│   │       ├── J0030+0451_EBPP_1410MHz.std
+│   │       └── J0030+0451_EBPP_2639MHz.std
+│   ├── J0613-0200/
+│   │   ├── J0613-0200.par
+│   │   ├── J0613-0200_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0613-Lband.tpl
+│   │       ├── 0613-Sband.tpl
+│   │       ├── 0613_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0613-0200_EBPP_1360MHz.std
+│   │       ├── J0613-0200_EBPP_1410MHz.std
+│   │       ├── J0613-0200_EBPP_2639MHz.std
+│   │       ├── J0613-0200_jbroach_1532.std
+│   │       ├── J0613-0200_jbroach_334.std
+│   │       ├── J0613-0200_L_band.sm
+│   │       ├── J0613-0200_S_band.std
+│   │       ├── WSRT.P1.0613.1380-64.txt
+│   │       ├── WSRT.P1.0613.1380-64.txt.ascii
+│   │       ├── WSRT.P1.0613.328-64.txt
+│   │       ├── WSRT.P1.0613.328-64.txt.ascii
+│   │       ├── WSRT.P1.0613.382-64.txt
+│   │       └── WSRT.P1.0613.382-64.txt.ascii
+│   ├── J0751+1807/
+│   │   ├── J0751+1807.par
+│   │   ├── J0751+1807_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0751-Lband.tpl
+│   │       ├── 0751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0751+1807_EBPP_1360.std
+│   │       ├── J0751+1807_EBPP_1410.std
+│   │       ├── J0751+1807_EBPP_2639.std
+│   │       └── WSRT.P1.0751.1380.txt
+│   ├── J0900-3144/
+│   │   ├── J0900-3144.par
+│   │   ├── J0900-3144_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 0900-Lband.tpl
+│   │       ├── 0900-Sband.tpl
+│   │       ├── 0900_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1012+5307/
+│   │   ├── J1012+5307.par
+│   │   ├── J1012+5307_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1012-Lband.tpl
+│   │       ├── 1012-Sband.tpl
+│   │       ├── 1012_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1012+5307_EBPP_1360MHz.std
+│   │       ├── J1012+5307_EBPP_1410MHz.std
+│   │       ├── J1012+5307_EBPP_2639MHz.std
+│   │       ├── J1012+5307_jbroach_1532.std
+│   │       ├── WSRT.P1.1012.1380.1-64.txt
+│   │       ├── WSRT.P1.1012.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1012.1380.2-128.txt
+│   │       ├── WSRT.P1.1012.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1012.328-64.txt
+│   │       ├── WSRT.P1.1012.328-64.txt.ascii
+│   │       ├── WSRT.P1.1012.382-64.txt
+│   │       └── WSRT.P1.1012.382-64.txt.ascii
+│   ├── J1022+1001/
+│   │   ├── J1022+1001.par
+│   │   ├── J1022+1001_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.1420.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1022-Lband.tpl
+│   │       ├── 1022_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1022+1001_EBPP_1360MHz.std
+│   │       ├── J1022+1001_EBPP_1410MHz.std
+│   │       ├── J1022+1001_EBPP_2639MHz.std
+│   │       ├── J1022+1001_P200-3.tim
+│   │       ├── J1022+1001_P217-3.tim
+│   │       ├── J1022+1001_P217.added
+│   │       ├── J1022+1001_P217_Template.sm
+│   │       ├── J1022+1001_S110-1.tim
+│   │       ├── J1022+1001_S110_Template.added
+│   │       ├── J1022+1001_S110_Template.sm
+│   │       ├── J1022+1001_S60-2.tim
+│   │       ├── J1022+1001_S60_Template.added
+│   │       ├── J1022+1001_S60_Template.sm
+│   │       ├── WSRT.P1.1022.1380-256.txt
+│   │       ├── WSRT.P1.1022.1380-256.txt.ascii
+│   │       ├── WSRT.P1.1022.323-256.txt
+│   │       ├── WSRT.P1.1022.323-256.txt.ascii
+│   │       ├── WSRT.P1.1022.367-256.txt
+│   │       └── WSRT.P1.1022.367-256.txt.ascii
+│   ├── J1024-0719/
+│   │   ├── J1024-0719.par
+│   │   ├── J1024-0719_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1200.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1024-Lband.tpl
+│   │       ├── 1024-Sband.tpl
+│   │       ├── 1024_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1024-0719_EBPP_1360MHz.std
+│   │       ├── J1024-0719_EBPP_1410MHz.std
+│   │       ├── J1024-0719_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1024.1380-128.txt
+│   │       └── WSRT.P1.1024.1380-128.txt.ascii
+│   ├── J1455-3330/
+│   │   ├── J1455-3330.par
+│   │   ├── J1455-3330_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1455-Lband.tpl
+│   │       ├── 1455_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1600-3053/
+│   │   ├── J1600-3053.par
+│   │   ├── J1600-3053_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1600-Lband.tpl
+│   │       ├── 1600-Sband.tpl
+│   │       ├── 1600_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1600-3053_jbroach_1532.std
+│   │       ├── NUPPI_1484_F4T_smoothed.prof
+│   │       ├── NUPPI_1854_F4T_smoothed.prof
+│   │       ├── NUPPI_2154_F4T_smoothed.prof
+│   │       ├── NUPPI_2539_F4T_smoothed.prof
+│   │       ├── WSRT.P1.1600.1380-64.txt
+│   │       └── WSRT.P1.1600.1380-64.txt.ascii
+│   ├── J1640+2224/
+│   │   ├── J1640+2224.par
+│   │   ├── J1640+2224_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   └── WSRT.P1.367.tim
+│   │   └── tpl/
+│   │       ├── 1640-Lband.tpl
+│   │       ├── 1640_1600.tpl
+│   │       ├── 1640aligned.std
+│   │       ├── 1640aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1640+2224_EBPP_1360MHz.std
+│   │       ├── J1640+2224_EBPP_1410MHz.std
+│   │       ├── J1640+2224_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1640.1380-64.txt
+│   │       └── WSRT.P1.1640.1380-64.txt.ascii
+│   ├── J1713+0747/
+│   │   ├── J1713+0747.par
+│   │   ├── J1713+0747_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.DFB.5000.tim
+│   │   │   ├── JBO.MK2.1520.2.tim
+│   │   │   ├── JBO.MK2.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   ├── WSRT.P1.840.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   ├── WSRT.P2.2273.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1713-Lband.tpl
+│   │       ├── 1713-Sband.tpl
+│   │       ├── 1713_1600.tpl
+│   │       ├── EFF.P217_CH0.std
+│   │       ├── EFF.P217_CH1.std
+│   │       ├── EFF.S110_template.std
+│   │       ├── EFF.S60_template.std
+│   │       ├── J1713+0747_EBPP_1360MHz.std
+│   │       ├── J1713+0747_EBPP_1410MHz.std
+│   │       ├── J1713+0747_EBPP_2639MHz.std
+│   │       ├── J1713+0747_jbroach_1532.std
+│   │       ├── J1713+0747_jbroach_334.std
+│   │       ├── WSRT.P1.1713.1380.1-64.txt
+│   │       ├── WSRT.P1.1713.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1713.1380.2-128.txt
+│   │       ├── WSRT.P1.1713.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1713.2273-128.txt
+│   │       ├── WSRT.P1.1713.2273-128.txt.ascii
+│   │       ├── WSRT.P1.1713.840-64.txt
+│   │       └── WSRT.P1.1713.840-64.txt.ascii
+│   ├── J1730-2304/
+│   │   ├── J1730-2304.par
+│   │   ├── J1730-2304_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1730-Lband.tpl
+│   │       ├── 1730-Sband.tpl
+│   │       ├── 1730_1600.tpl
+│   │       ├── 1730aligned.std
+│   │       ├── 1730aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1730-2304_EBPP_1360MHz.std
+│   │       ├── J1730-2304_EBPP_1410MHz.std
+│   │       └── J1730-2304_EBPP_2639MHz.std
+│   ├── J1738+0333/
+│   │   ├── J1738+0333.par
+│   │   ├── J1738+0333_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1738-Lband.tpl
+│   │       ├── 1738_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1744-1134/
+│   │   ├── J1744-1134.par
+│   │   ├── J1744-1134_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1744-Lband.tpl
+│   │       ├── 1744-Sband.tpl
+│   │       ├── 1744_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1744-1134_EBPP_1360MHz.std
+│   │       ├── J1744-1134_EBPP_1410MHz.std
+│   │       ├── J1744-1134_EBPP_2639MHz.std
+│   │       ├── J1744-1134_jbroach_1532.std
+│   │       ├── WSRT.P1.1744.323-64.txt
+│   │       ├── WSRT.P1.1744.323-64.txt.ascii
+│   │       ├── WSRT.P1.1744.367-64.txt
+│   │       └── WSRT.P1.1744.367-64.txt.ascii
+│   ├── J1751-2857/
+│   │   ├── J1751-2857.par
+│   │   ├── J1751-2857_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1400.tim.org
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── TOAs_BON_1398_DFTp.tim
+│   │   └── tpl/
+│   │       ├── 1751-Lband.tpl
+│   │       ├── 1751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1751-2857_jbroach_1532.std
+│   ├── J1801-1417/
+│   │   ├── J1801-1417.par
+│   │   ├── J1801-1417_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1801-Lband.tpl
+│   │       ├── 1801_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1801-1417_jbroach_1532.std
+│   ├── J1804-2717/
+│   │   ├── J1804-2717.par
+│   │   ├── J1804-2717_all.tim
+│   │   └── tims/
+│   │       ├── JBO.DFB.1400.tim
+│   │       ├── JBO.DFB.1520.tim
+│   │       ├── JBO.ROACH.1520.tim
+│   │       ├── NRT.BON.1400.tim
+│   │       ├── NRT.BON.1600.tim
+│   │       ├── NRT.BON.2000.tim
+│   │       └── NRT.NUPPI.1484.tim
+│   ├── J1843-1113/
+│   │   ├── J1843-1113.par
+│   │   ├── J1843-1113_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1843-1113-Lband.tpl
+│   │       ├── 1843_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── WSRT.P1.1843.1380-64.txt
+│   │       └── WSRT.P1.1843.1380-64.txt.ascii
+│   ├── J1857+0943/
+│   │   ├── J1857+0943.par
+│   │   ├── J1857+0943_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1855-Lband.tpl
+│   │       ├── 1855-Sband.tpl
+│   │       ├── 1855_1600.tpl
+│   │       ├── B1855+09_P217_Template.sm
+│   │       ├── B1855+09_S110_Template.sm
+│   │       ├── B1855+09_S60_Template.sm
+│   │       ├── J1857+0943_EBPP_1360MHz.std
+│   │       ├── J1857+0943_EBPP_1410MHz.std
+│   │       ├── J1857+0943_EBPP_2639MHz.std
+│   │       ├── puma1std.1855.22cm.txt
+│   │       ├── puma1std.1855.22cm.txt.ascii
+│   │       ├── WSRT.P1.1855.2273-128.txt
+│   │       └── WSRT.P1.1855.2273-128.txt.ascii
+│   ├── J1909-3744/
+│   │   ├── J1909-3744.par
+│   │   ├── J1909-3744_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1909-Lband.tpl
+│   │       ├── 1909-Sband.tpl
+│   │       └── 1909_1600.tpl
+│   ├── J1910+1256/
+│   │   ├── J1910+1256.par
+│   │   ├── J1910+1256_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1910-Lband.tpl
+│   │       ├── 1910_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1910+1256_jbroach_1532.std
+│   ├── J1911+1347/
+│   │   ├── J1911+1347.par
+│   │   ├── J1911+1347_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1911+1347-Lband.tpl
+│   │       ├── 1911+1347_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1911+1347_jbroach_1532.std
+│   │       ├── J1911+1807_P217_Template.sm
+│   │       └── J1911+1807_S110_Template.sm
+│   ├── J1918-0642/
+│   │   ├── J1918-0642.par
+│   │   ├── J1918-0642_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── J1918-0642_jbroach_1532.std
+│   │       ├── P217_added.sm
+│   │       └── S110_added.sm
+│   ├── J2124-3358/
+│   │   ├── J2124-3358.par
+│   │   ├── J2124-3358_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 2124-Lband.tpl
+│   │       ├── 2124-Sband.tpl
+│   │       ├── 2124_1600.tpl
+│   │       └── dfb1520.std
+│   └── J2322+2057/
+│       ├── J2322+2057.par
+│       ├── J2322+2057_all.tim
+│       ├── tims/
+│       │   ├── EFF.P200.1380.tim
+│       │   ├── EFF.P217.1380.tim
+│       │   ├── EFF.S110.2487.tim
+│       │   ├── JBO.DFB.1400.tim
+│       │   ├── JBO.DFB.1520.tim
+│       │   ├── JBO.ROACH.1520.tim
+│       │   ├── NRT.BON.1400.tim
+│       │   ├── NRT.BON.1600.tim
+│       │   └── NRT.NUPPI.1484.tim
+│       └── tpl/
+│           ├── 2322-Lband.tpl
+│           ├── 2322_1600.tpl
+│           ├── 2322_tpl.ps
+│           └── dfb1520.std
+├── DR2new/
+│   ├── J0030+0451/
+│   │   ├── J0030+0451.par
+│   │   ├── J0030+0451_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0030-Lband.tpl
+│   │       ├── 0030-Sband.tpl
+│   │       ├── 0030_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0030+0451_EBPP_1360MHz.std
+│   │       ├── J0030+0451_EBPP_1410MHz.std
+│   │       └── J0030+0451_EBPP_2639MHz.std
+│   ├── J0613-0200/
+│   │   ├── J0613-0200.par
+│   │   ├── J0613-0200_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0613-Lband.tpl
+│   │       ├── 0613-Sband.tpl
+│   │       ├── 0613_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0613-0200_EBPP_1360MHz.std
+│   │       ├── J0613-0200_EBPP_1410MHz.std
+│   │       ├── J0613-0200_EBPP_2639MHz.std
+│   │       ├── J0613-0200_jbroach_1532.std
+│   │       ├── J0613-0200_jbroach_334.std
+│   │       ├── J0613-0200_L_band.sm
+│   │       ├── J0613-0200_S_band.std
+│   │       ├── WSRT.P1.0613.1380-64.txt
+│   │       ├── WSRT.P1.0613.1380-64.txt.ascii
+│   │       ├── WSRT.P1.0613.328-64.txt
+│   │       ├── WSRT.P1.0613.328-64.txt.ascii
+│   │       ├── WSRT.P1.0613.382-64.txt
+│   │       └── WSRT.P1.0613.382-64.txt.ascii
+│   ├── J0751+1807/
+│   │   ├── J0751+1807.par
+│   │   ├── J0751+1807_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0751-Lband.tpl
+│   │       ├── 0751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0751+1807_EBPP_1360.std
+│   │       ├── J0751+1807_EBPP_1410.std
+│   │       ├── J0751+1807_EBPP_2639.std
+│   │       └── WSRT.P1.0751.1380.txt
+│   ├── J0900-3144/
+│   │   ├── J0900-3144.par
+│   │   ├── J0900-3144_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 0900-Lband.tpl
+│   │       ├── 0900-Sband.tpl
+│   │       ├── 0900_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1012+5307/
+│   │   ├── J1012+5307.par
+│   │   ├── J1012+5307_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1012-Lband.tpl
+│   │       ├── 1012-Sband.tpl
+│   │       ├── 1012_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1012+5307_EBPP_1360MHz.std
+│   │       ├── J1012+5307_EBPP_1410MHz.std
+│   │       ├── J1012+5307_EBPP_2639MHz.std
+│   │       ├── J1012+5307_jbroach_1532.std
+│   │       ├── WSRT.P1.1012.1380.1-64.txt
+│   │       ├── WSRT.P1.1012.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1012.1380.2-128.txt
+│   │       ├── WSRT.P1.1012.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1012.328-64.txt
+│   │       ├── WSRT.P1.1012.328-64.txt.ascii
+│   │       ├── WSRT.P1.1012.382-64.txt
+│   │       └── WSRT.P1.1012.382-64.txt.ascii
+│   ├── J1022+1001/
+│   │   ├── J1022+1001.par
+│   │   ├── J1022+1001_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.1420.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1022-Lband.tpl
+│   │       ├── 1022_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1022+1001_EBPP_1360MHz.std
+│   │       ├── J1022+1001_EBPP_1410MHz.std
+│   │       ├── J1022+1001_EBPP_2639MHz.std
+│   │       ├── J1022+1001_P200-3.tim
+│   │       ├── J1022+1001_P217-3.tim
+│   │       ├── J1022+1001_P217.added
+│   │       ├── J1022+1001_P217_Template.sm
+│   │       ├── J1022+1001_S110-1.tim
+│   │       ├── J1022+1001_S110_Template.added
+│   │       ├── J1022+1001_S110_Template.sm
+│   │       ├── J1022+1001_S60-2.tim
+│   │       ├── J1022+1001_S60_Template.added
+│   │       ├── J1022+1001_S60_Template.sm
+│   │       ├── WSRT.P1.1022.1380-256.txt
+│   │       ├── WSRT.P1.1022.1380-256.txt.ascii
+│   │       ├── WSRT.P1.1022.323-256.txt
+│   │       ├── WSRT.P1.1022.323-256.txt.ascii
+│   │       ├── WSRT.P1.1022.367-256.txt
+│   │       └── WSRT.P1.1022.367-256.txt.ascii
+│   ├── J1024-0719/
+│   │   ├── J1024-0719.par
+│   │   ├── J1024-0719_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1200.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1024-Lband.tpl
+│   │       ├── 1024-Sband.tpl
+│   │       ├── 1024_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1024-0719_EBPP_1360MHz.std
+│   │       ├── J1024-0719_EBPP_1410MHz.std
+│   │       ├── J1024-0719_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1024.1380-128.txt
+│   │       └── WSRT.P1.1024.1380-128.txt.ascii
+│   ├── J1455-3330/
+│   │   ├── J1455-3330.par
+│   │   ├── J1455-3330_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1455-Lband.tpl
+│   │       ├── 1455_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1600-3053/
+│   │   ├── J1600-3053.par
+│   │   ├── J1600-3053_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1600-Lband.tpl
+│   │       ├── 1600-Sband.tpl
+│   │       ├── 1600_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1600-3053_jbroach_1532.std
+│   │       ├── NUPPI_1484_F4T_smoothed.prof
+│   │       ├── NUPPI_1854_F4T_smoothed.prof
+│   │       ├── NUPPI_2154_F4T_smoothed.prof
+│   │       ├── NUPPI_2539_F4T_smoothed.prof
+│   │       ├── WSRT.P1.1600.1380-64.txt
+│   │       └── WSRT.P1.1600.1380-64.txt.ascii
+│   ├── J1640+2224/
+│   │   ├── J1640+2224.par
+│   │   ├── J1640+2224_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   └── WSRT.P1.367.tim
+│   │   └── tpl/
+│   │       ├── 1640-Lband.tpl
+│   │       ├── 1640_1600.tpl
+│   │       ├── 1640aligned.std
+│   │       ├── 1640aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1640+2224_EBPP_1360MHz.std
+│   │       ├── J1640+2224_EBPP_1410MHz.std
+│   │       ├── J1640+2224_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1640.1380-64.txt
+│   │       └── WSRT.P1.1640.1380-64.txt.ascii
+│   ├── J1713+0747/
+│   │   ├── J1713+0747.par
+│   │   ├── J1713+0747_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.DFB.5000.tim
+│   │   │   ├── JBO.MK2.1520.2.tim
+│   │   │   ├── JBO.MK2.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   ├── WSRT.P1.840.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   ├── WSRT.P2.2273.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1713-Lband.tpl
+│   │       ├── 1713-Sband.tpl
+│   │       ├── 1713_1600.tpl
+│   │       ├── EFF.P217_CH0.std
+│   │       ├── EFF.P217_CH1.std
+│   │       ├── EFF.S110_template.std
+│   │       ├── EFF.S60_template.std
+│   │       ├── J1713+0747_EBPP_1360MHz.std
+│   │       ├── J1713+0747_EBPP_1410MHz.std
+│   │       ├── J1713+0747_EBPP_2639MHz.std
+│   │       ├── J1713+0747_jbroach_1532.std
+│   │       ├── J1713+0747_jbroach_334.std
+│   │       ├── WSRT.P1.1713.1380.1-64.txt
+│   │       ├── WSRT.P1.1713.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1713.1380.2-128.txt
+│   │       ├── WSRT.P1.1713.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1713.2273-128.txt
+│   │       ├── WSRT.P1.1713.2273-128.txt.ascii
+│   │       ├── WSRT.P1.1713.840-64.txt
+│   │       └── WSRT.P1.1713.840-64.txt.ascii
+│   ├── J1730-2304/
+│   │   ├── J1730-2304.par
+│   │   ├── J1730-2304_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1730-Lband.tpl
+│   │       ├── 1730-Sband.tpl
+│   │       ├── 1730_1600.tpl
+│   │       ├── 1730aligned.std
+│   │       ├── 1730aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1730-2304_EBPP_1360MHz.std
+│   │       ├── J1730-2304_EBPP_1410MHz.std
+│   │       └── J1730-2304_EBPP_2639MHz.std
+│   ├── J1738+0333/
+│   │   ├── J1738+0333.par
+│   │   ├── J1738+0333_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1738-Lband.tpl
+│   │       ├── 1738_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1744-1134/
+│   │   ├── J1744-1134.par
+│   │   ├── J1744-1134_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1744-Lband.tpl
+│   │       ├── 1744-Sband.tpl
+│   │       ├── 1744_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1744-1134_EBPP_1360MHz.std
+│   │       ├── J1744-1134_EBPP_1410MHz.std
+│   │       ├── J1744-1134_EBPP_2639MHz.std
+│   │       ├── J1744-1134_jbroach_1532.std
+│   │       ├── WSRT.P1.1744.323-64.txt
+│   │       ├── WSRT.P1.1744.323-64.txt.ascii
+│   │       ├── WSRT.P1.1744.367-64.txt
+│   │       └── WSRT.P1.1744.367-64.txt.ascii
+│   ├── J1751-2857/
+│   │   ├── J1751-2857.par
+│   │   ├── J1751-2857_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1400.tim.org
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── TOAs_BON_1398_DFTp.tim
+│   │   └── tpl/
+│   │       ├── 1751-Lband.tpl
+│   │       ├── 1751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1751-2857_jbroach_1532.std
+│   ├── J1801-1417/
+│   │   ├── J1801-1417.par
+│   │   ├── J1801-1417_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1801-Lband.tpl
+│   │       ├── 1801_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1801-1417_jbroach_1532.std
+│   ├── J1804-2717/
+│   │   ├── J1804-2717.par
+│   │   ├── J1804-2717_all.tim
+│   │   └── tims/
+│   │       ├── JBO.DFB.1400.tim
+│   │       ├── JBO.DFB.1520.tim
+│   │       ├── JBO.ROACH.1520.tim
+│   │       ├── NRT.BON.1400.tim
+│   │       ├── NRT.BON.1600.tim
+│   │       ├── NRT.BON.2000.tim
+│   │       └── NRT.NUPPI.1484.tim
+│   ├── J1843-1113/
+│   │   ├── J1843-1113.par
+│   │   ├── J1843-1113_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1843-1113-Lband.tpl
+│   │       ├── 1843_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── WSRT.P1.1843.1380-64.txt
+│   │       └── WSRT.P1.1843.1380-64.txt.ascii
+│   ├── J1857+0943/
+│   │   ├── J1857+0943.par
+│   │   ├── J1857+0943_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1855-Lband.tpl
+│   │       ├── 1855-Sband.tpl
+│   │       ├── 1855_1600.tpl
+│   │       ├── B1855+09_P217_Template.sm
+│   │       ├── B1855+09_S110_Template.sm
+│   │       ├── B1855+09_S60_Template.sm
+│   │       ├── J1857+0943_EBPP_1360MHz.std
+│   │       ├── J1857+0943_EBPP_1410MHz.std
+│   │       ├── J1857+0943_EBPP_2639MHz.std
+│   │       ├── puma1std.1855.22cm.txt
+│   │       ├── puma1std.1855.22cm.txt.ascii
+│   │       ├── WSRT.P1.1855.2273-128.txt
+│   │       └── WSRT.P1.1855.2273-128.txt.ascii
+│   ├── J1909-3744/
+│   │   ├── J1909-3744.par
+│   │   ├── J1909-3744_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1909-Lband.tpl
+│   │       ├── 1909-Sband.tpl
+│   │       └── 1909_1600.tpl
+│   ├── J1910+1256/
+│   │   ├── J1910+1256.par
+│   │   ├── J1910+1256_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1910-Lband.tpl
+│   │       ├── 1910_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1910+1256_jbroach_1532.std
+│   ├── J1911+1347/
+│   │   ├── J1911+1347.par
+│   │   ├── J1911+1347_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1911+1347-Lband.tpl
+│   │       ├── 1911+1347_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1911+1347_jbroach_1532.std
+│   │       ├── J1911+1807_P217_Template.sm
+│   │       └── J1911+1807_S110_Template.sm
+│   ├── J1918-0642/
+│   │   ├── J1918-0642.par
+│   │   ├── J1918-0642_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── J1918-0642_jbroach_1532.std
+│   │       ├── P217_added.sm
+│   │       └── S110_added.sm
+│   ├── J2124-3358/
+│   │   ├── J2124-3358.par
+│   │   ├── J2124-3358_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 2124-Lband.tpl
+│   │       ├── 2124-Sband.tpl
+│   │       ├── 2124_1600.tpl
+│   │       └── dfb1520.std
+│   └── J2322+2057/
+│       ├── J2322+2057.par
+│       ├── J2322+2057_all.tim
+│       ├── tims/
+│       │   ├── EFF.P200.1380.tim
+│       │   ├── EFF.P217.1380.tim
+│       │   ├── EFF.S110.2487.tim
+│       │   ├── JBO.DFB.1400.tim
+│       │   ├── JBO.DFB.1520.tim
+│       │   ├── JBO.ROACH.1520.tim
+│       │   ├── NRT.BON.1400.tim
+│       │   ├── NRT.BON.1600.tim
+│       │   └── NRT.NUPPI.1484.tim
+│       └── tpl/
+│           ├── 2322-Lband.tpl
+│           ├── 2322_1600.tpl
+│           ├── 2322_tpl.ps
+│           └── dfb1520.std
+├── DR2new+/
+│   ├── J0030+0451/
+│   │   ├── J0030+0451.par
+│   │   ├── J0030+0451_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0030-Lband.tpl
+│   │       ├── 0030-Sband.tpl
+│   │       ├── 0030_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0030+0451_EBPP_1360MHz.std
+│   │       ├── J0030+0451_EBPP_1410MHz.std
+│   │       └── J0030+0451_EBPP_2639MHz.std
+│   ├── J0613-0200/
+│   │   ├── J0613-0200.par
+│   │   ├── J0613-0200_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0613-Lband.tpl
+│   │       ├── 0613-Sband.tpl
+│   │       ├── 0613_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0613-0200_EBPP_1360MHz.std
+│   │       ├── J0613-0200_EBPP_1410MHz.std
+│   │       ├── J0613-0200_EBPP_2639MHz.std
+│   │       ├── J0613-0200_jbroach_1532.std
+│   │       ├── J0613-0200_jbroach_334.std
+│   │       ├── J0613-0200_L_band.sm
+│   │       ├── J0613-0200_S_band.std
+│   │       ├── WSRT.P1.0613.1380-64.txt
+│   │       ├── WSRT.P1.0613.1380-64.txt.ascii
+│   │       ├── WSRT.P1.0613.328-64.txt
+│   │       ├── WSRT.P1.0613.328-64.txt.ascii
+│   │       ├── WSRT.P1.0613.382-64.txt
+│   │       └── WSRT.P1.0613.382-64.txt.ascii
+│   ├── J0751+1807/
+│   │   ├── J0751+1807.par
+│   │   ├── J0751+1807_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 0751-Lband.tpl
+│   │       ├── 0751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J0751+1807_EBPP_1360.std
+│   │       ├── J0751+1807_EBPP_1410.std
+│   │       ├── J0751+1807_EBPP_2639.std
+│   │       └── WSRT.P1.0751.1380.txt
+│   ├── J0900-3144/
+│   │   ├── J0900-3144.par
+│   │   ├── J0900-3144_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 0900-Lband.tpl
+│   │       ├── 0900-Sband.tpl
+│   │       ├── 0900_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1012+5307/
+│   │   ├── J1012+5307.par
+│   │   ├── J1012+5307_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.328.tim
+│   │   │   ├── WSRT.P1.382.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1012-Lband.tpl
+│   │       ├── 1012-Sband.tpl
+│   │       ├── 1012_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1012+5307_EBPP_1360MHz.std
+│   │       ├── J1012+5307_EBPP_1410MHz.std
+│   │       ├── J1012+5307_EBPP_2639MHz.std
+│   │       ├── J1012+5307_jbroach_1532.std
+│   │       ├── WSRT.P1.1012.1380.1-64.txt
+│   │       ├── WSRT.P1.1012.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1012.1380.2-128.txt
+│   │       ├── WSRT.P1.1012.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1012.328-64.txt
+│   │       ├── WSRT.P1.1012.328-64.txt.ascii
+│   │       ├── WSRT.P1.1012.382-64.txt
+│   │       └── WSRT.P1.1012.382-64.txt.ascii
+│   ├── J1022+1001/
+│   │   ├── J1022+1001.par
+│   │   ├── J1022+1001_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.1420.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1022-Lband.tpl
+│   │       ├── 1022_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1022+1001_EBPP_1360MHz.std
+│   │       ├── J1022+1001_EBPP_1410MHz.std
+│   │       ├── J1022+1001_EBPP_2639MHz.std
+│   │       ├── J1022+1001_P200-3.tim
+│   │       ├── J1022+1001_P217-3.tim
+│   │       ├── J1022+1001_P217.added
+│   │       ├── J1022+1001_P217_Template.sm
+│   │       ├── J1022+1001_S110-1.tim
+│   │       ├── J1022+1001_S110_Template.added
+│   │       ├── J1022+1001_S110_Template.sm
+│   │       ├── J1022+1001_S60-2.tim
+│   │       ├── J1022+1001_S60_Template.added
+│   │       ├── J1022+1001_S60_Template.sm
+│   │       ├── WSRT.P1.1022.1380-256.txt
+│   │       ├── WSRT.P1.1022.1380-256.txt.ascii
+│   │       ├── WSRT.P1.1022.323-256.txt
+│   │       ├── WSRT.P1.1022.323-256.txt.ascii
+│   │       ├── WSRT.P1.1022.367-256.txt
+│   │       └── WSRT.P1.1022.367-256.txt.ascii
+│   ├── J1024-0719/
+│   │   ├── J1024-0719.par
+│   │   ├── J1024-0719_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1200.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1024-Lband.tpl
+│   │       ├── 1024-Sband.tpl
+│   │       ├── 1024_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1024-0719_EBPP_1360MHz.std
+│   │       ├── J1024-0719_EBPP_1410MHz.std
+│   │       ├── J1024-0719_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1024.1380-128.txt
+│   │       └── WSRT.P1.1024.1380-128.txt.ascii
+│   ├── J1455-3330/
+│   │   ├── J1455-3330.par
+│   │   ├── J1455-3330_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1455-Lband.tpl
+│   │       ├── 1455_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1600-3053/
+│   │   ├── J1600-3053.par
+│   │   ├── J1600-3053_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1600-Lband.tpl
+│   │       ├── 1600-Sband.tpl
+│   │       ├── 1600_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1600-3053_jbroach_1532.std
+│   │       ├── NUPPI_1484_F4T_smoothed.prof
+│   │       ├── NUPPI_1854_F4T_smoothed.prof
+│   │       ├── NUPPI_2154_F4T_smoothed.prof
+│   │       ├── NUPPI_2539_F4T_smoothed.prof
+│   │       ├── WSRT.P1.1600.1380-64.txt
+│   │       └── WSRT.P1.1600.1380-64.txt.ascii
+│   ├── J1640+2224/
+│   │   ├── J1640+2224.par
+│   │   ├── J1640+2224_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   └── WSRT.P1.367.tim
+│   │   └── tpl/
+│   │       ├── 1640-Lband.tpl
+│   │       ├── 1640_1600.tpl
+│   │       ├── 1640aligned.std
+│   │       ├── 1640aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1640+2224_EBPP_1360MHz.std
+│   │       ├── J1640+2224_EBPP_1410MHz.std
+│   │       ├── J1640+2224_EBPP_2639MHz.std
+│   │       ├── WSRT.P1.1640.1380-64.txt
+│   │       └── WSRT.P1.1640.1380-64.txt.ascii
+│   ├── J1713+0747/
+│   │   ├── J1713+0747.par
+│   │   ├── J1713+0747_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.DFB.5000.tim
+│   │   │   ├── JBO.MK2.1520.2.tim
+│   │   │   ├── JBO.MK2.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.1.tim
+│   │   │   ├── WSRT.P1.1380.2.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   ├── WSRT.P1.840.tim
+│   │   │   ├── WSRT.P2.1380.tim
+│   │   │   ├── WSRT.P2.2273.tim
+│   │   │   └── WSRT.P2.350.tim
+│   │   └── tpl/
+│   │       ├── 1713-Lband.tpl
+│   │       ├── 1713-Sband.tpl
+│   │       ├── 1713_1600.tpl
+│   │       ├── EFF.P217_CH0.std
+│   │       ├── EFF.P217_CH1.std
+│   │       ├── EFF.S110_template.std
+│   │       ├── EFF.S60_template.std
+│   │       ├── J1713+0747_EBPP_1360MHz.std
+│   │       ├── J1713+0747_EBPP_1410MHz.std
+│   │       ├── J1713+0747_EBPP_2639MHz.std
+│   │       ├── J1713+0747_jbroach_1532.std
+│   │       ├── J1713+0747_jbroach_334.std
+│   │       ├── WSRT.P1.1713.1380.1-64.txt
+│   │       ├── WSRT.P1.1713.1380.1-64.txt.ascii
+│   │       ├── WSRT.P1.1713.1380.2-128.txt
+│   │       ├── WSRT.P1.1713.1380.2-128.txt.ascii
+│   │       ├── WSRT.P1.1713.2273-128.txt
+│   │       ├── WSRT.P1.1713.2273-128.txt.ascii
+│   │       ├── WSRT.P1.1713.840-64.txt
+│   │       └── WSRT.P1.1713.840-64.txt.ascii
+│   ├── J1730-2304/
+│   │   ├── J1730-2304.par
+│   │   ├── J1730-2304_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1730-Lband.tpl
+│   │       ├── 1730-Sband.tpl
+│   │       ├── 1730_1600.tpl
+│   │       ├── 1730aligned.std
+│   │       ├── 1730aligned.txt
+│   │       ├── dfb1520.std
+│   │       ├── J1730-2304_EBPP_1360MHz.std
+│   │       ├── J1730-2304_EBPP_1410MHz.std
+│   │       └── J1730-2304_EBPP_2639MHz.std
+│   ├── J1738+0333/
+│   │   ├── J1738+0333.par
+│   │   ├── J1738+0333_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1738-Lband.tpl
+│   │       ├── 1738_1600.tpl
+│   │       └── dfb1520.std
+│   ├── J1744-1134/
+│   │   ├── J1744-1134.par
+│   │   ├── J1744-1134_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.323.tim
+│   │   │   ├── WSRT.P1.367.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1744-Lband.tpl
+│   │       ├── 1744-Sband.tpl
+│   │       ├── 1744_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1744-1134_EBPP_1360MHz.std
+│   │       ├── J1744-1134_EBPP_1410MHz.std
+│   │       ├── J1744-1134_EBPP_2639MHz.std
+│   │       ├── J1744-1134_jbroach_1532.std
+│   │       ├── WSRT.P1.1744.323-64.txt
+│   │       ├── WSRT.P1.1744.323-64.txt.ascii
+│   │       ├── WSRT.P1.1744.367-64.txt
+│   │       └── WSRT.P1.1744.367-64.txt.ascii
+│   ├── J1751-2857/
+│   │   ├── J1751-2857.par
+│   │   ├── J1751-2857_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1400.tim.org
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   └── TOAs_BON_1398_DFTp.tim
+│   │   └── tpl/
+│   │       ├── 1751-Lband.tpl
+│   │       ├── 1751_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1751-2857_jbroach_1532.std
+│   ├── J1801-1417/
+│   │   ├── J1801-1417.par
+│   │   ├── J1801-1417_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1801-Lband.tpl
+│   │       ├── 1801_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1801-1417_jbroach_1532.std
+│   ├── J1804-2717/
+│   │   ├── J1804-2717.par
+│   │   ├── J1804-2717_all.tim
+│   │   └── tims/
+│   │       ├── JBO.DFB.1400.tim
+│   │       ├── JBO.DFB.1520.tim
+│   │       ├── JBO.ROACH.1520.tim
+│   │       ├── NRT.BON.1400.tim
+│   │       ├── NRT.BON.1600.tim
+│   │       ├── NRT.BON.2000.tim
+│   │       └── NRT.NUPPI.1484.tim
+│   ├── J1843-1113/
+│   │   ├── J1843-1113.par
+│   │   ├── J1843-1113_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1843-1113-Lband.tpl
+│   │       ├── 1843_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── WSRT.P1.1843.1380-64.txt
+│   │       └── WSRT.P1.1843.1380-64.txt.ascii
+│   ├── J1857+0943/
+│   │   ├── J1857+0943.par
+│   │   ├── J1857+0943_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.EBPP.1360.tim
+│   │   │   ├── EFF.EBPP.1410.tim
+│   │   │   ├── EFF.EBPP.2639.tim
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── EFF.S60.4857.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.2539.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   ├── WSRT.P1.2273.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── 1855-Lband.tpl
+│   │       ├── 1855-Sband.tpl
+│   │       ├── 1855_1600.tpl
+│   │       ├── B1855+09_P217_Template.sm
+│   │       ├── B1855+09_S110_Template.sm
+│   │       ├── B1855+09_S60_Template.sm
+│   │       ├── J1857+0943_EBPP_1360MHz.std
+│   │       ├── J1857+0943_EBPP_1410MHz.std
+│   │       ├── J1857+0943_EBPP_2639MHz.std
+│   │       ├── puma1std.1855.22cm.txt
+│   │       ├── puma1std.1855.22cm.txt.ascii
+│   │       ├── WSRT.P1.1855.2273-128.txt
+│   │       └── WSRT.P1.1855.2273-128.txt.ascii
+│   ├── J1909-3744/
+│   │   ├── J1909-3744.par
+│   │   ├── J1909-3744_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── F4Tp-clean.tim
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── new.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 1909-Lband.tpl
+│   │       ├── 1909-Sband.tpl
+│   │       └── 1909_1600.tpl
+│   ├── J1910+1256/
+│   │   ├── J1910+1256.par
+│   │   ├── J1910+1256_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1910-Lband.tpl
+│   │       ├── 1910_1600.tpl
+│   │       ├── dfb1520.std
+│   │       └── J1910+1256_jbroach_1532.std
+│   ├── J1911+1347/
+│   │   ├── J1911+1347.par
+│   │   ├── J1911+1347_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   └── NRT.NUPPI.1484.tim
+│   │   └── tpl/
+│   │       ├── 1911+1347-Lband.tpl
+│   │       ├── 1911+1347_1600.tpl
+│   │       ├── dfb1520.std
+│   │       ├── J1911+1347_jbroach_1532.std
+│   │       ├── J1911+1807_P217_Template.sm
+│   │       └── J1911+1807_S110_Template.sm
+│   ├── J1918-0642/
+│   │   ├── J1918-0642.par
+│   │   ├── J1918-0642_all.tim
+│   │   ├── tims/
+│   │   │   ├── EFF.P200.1380.tim
+│   │   │   ├── EFF.P217.1380.tim
+│   │   │   ├── EFF.S110.2487.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── LEAP.1396.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── WSRT.P1.1380.tim
+│   │   │   └── WSRT.P2.1380.tim
+│   │   └── tpl/
+│   │       ├── J1918-0642_jbroach_1532.std
+│   │       ├── P217_added.sm
+│   │       └── S110_added.sm
+│   ├── J2124-3358/
+│   │   ├── J2124-3358.par
+│   │   ├── J2124-3358_all.tim
+│   │   ├── LastParTimStatus
+│   │   ├── tims/
+│   │   │   ├── GM_GWB_1460_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_1460_200_b0_post36.tim
+│   │   │   ├── GM_GWB_500_100_b1_pre36.tim
+│   │   │   ├── GM_GWB_500_200_b1_post36.tim
+│   │   │   ├── JBO.DFB.1400.tim
+│   │   │   ├── JBO.DFB.1520.tim
+│   │   │   ├── JBO.ROACH.1520.tim
+│   │   │   ├── NRT.BON.1400.tim
+│   │   │   ├── NRT.BON.1600.tim
+│   │   │   ├── NRT.BON.2000.tim
+│   │   │   ├── NRT.NUPPI.1484.tim
+│   │   │   ├── NRT.NUPPI.1854.tim
+│   │   │   ├── NRT.NUPPI.2154.tim
+│   │   │   └── NRT.NUPPI.2539.tim
+│   │   └── tpl/
+│   │       ├── 2124-Lband.tpl
+│   │       ├── 2124-Sband.tpl
+│   │       ├── 2124_1600.tpl
+│   │       └── dfb1520.std
+│   └── J2322+2057/
+│       ├── J2322+2057.par
+│       ├── J2322+2057_all.tim
+│       ├── tims/
+│       │   ├── EFF.P200.1380.tim
+│       │   ├── EFF.P217.1380.tim
+│       │   ├── EFF.S110.2487.tim
+│       │   ├── JBO.DFB.1400.tim
+│       │   ├── JBO.DFB.1520.tim
+│       │   ├── JBO.ROACH.1520.tim
+│       │   ├── NRT.BON.1400.tim
+│       │   ├── NRT.BON.1600.tim
+│       │   └── NRT.NUPPI.1484.tim
+│       └── tpl/
+│           ├── 2322-Lband.tpl
+│           ├── 2322_1600.tpl
+│           ├── 2322_tpl.ps
+│           └── dfb1520.std
+├── epta_dr2.txt
+├── noisefiles/
+│   ├── DR2full/
+│   │   ├── chrom_dict.json
+│   │   ├── dm_dict.json
+│   │   ├── J0030+0451_noise.json
+│   │   ├── J0613-0200_noise.json
+│   │   ├── J0751+1807_noise.json
+│   │   ├── J0900-3144_noise.json
+│   │   ├── J1012+5307_noise.json
+│   │   ├── J1022+1001_noise.json
+│   │   ├── J1024-0719_noise.json
+│   │   ├── J1455-3330_noise.json
+│   │   ├── J1600-3053_noise.json
+│   │   ├── J1640+2224_noise.json
+│   │   ├── J1713+0747_noise.json
+│   │   ├── J1730-2304_noise.json
+│   │   ├── J1738+0333_noise.json
+│   │   ├── J1744-1134_noise.json
+│   │   ├── J1751-2857_noise.json
+│   │   ├── J1801-1417_noise.json
+│   │   ├── J1804-2717_noise.json
+│   │   ├── J1843-1113_noise.json
+│   │   ├── J1857+0943_noise.json
+│   │   ├── J1909-3744_noise.json
+│   │   ├── J1910+1256_noise.json
+│   │   ├── J1911+1347_noise.json
+│   │   ├── J1918-0642_noise.json
+│   │   ├── J2124-3358_noise.json
+│   │   ├── J2322+2057_noise.json
+│   │   └── red_dict.json
+│   ├── DR2full+/
+│   │   ├── chrom_dict.json
+│   │   ├── dm_dict.json
+│   │   ├── J0030+0451_noise.json
+│   │   ├── J0613-0200_noise.json
+│   │   ├── J0751+1807_noise.json
+│   │   ├── J0900-3144_noise.json
+│   │   ├── J1012+5307_noise.json
+│   │   ├── J1022+1001_noise.json
+│   │   ├── J1024-0719_noise.json
+│   │   ├── J1455-3330_noise.json
+│   │   ├── J1600-3053_noise.json
+│   │   ├── J1640+2224_noise.json
+│   │   ├── J1713+0747_noise.json
+│   │   ├── J1730-2304_noise.json
+│   │   ├── J1738+0333_noise.json
+│   │   ├── J1744-1134_noise.json
+│   │   ├── J1751-2857_noise.json
+│   │   ├── J1801-1417_noise.json
+│   │   ├── J1804-2717_noise.json
+│   │   ├── J1843-1113_noise.json
+│   │   ├── J1857+0943_noise.json
+│   │   ├── J1909-3744_noise.json
+│   │   ├── J1910+1256_noise.json
+│   │   ├── J1911+1347_noise.json
+│   │   ├── J1918-0642_noise.json
+│   │   ├── J2124-3358_noise.json
+│   │   ├── J2322+2057_noise.json
+│   │   └── red_dict.json
+│   ├── DR2new/
+│   │   ├── chrom_dict.json
+│   │   ├── dm_dict.json
+│   │   ├── J0030+0451_noise.json
+│   │   ├── J0613-0200_noise.json
+│   │   ├── J0751+1807_noise.json
+│   │   ├── J0900-3144_noise.json
+│   │   ├── J1012+5307_noise.json
+│   │   ├── J1022+1001_noise.json
+│   │   ├── J1024-0719_noise.json
+│   │   ├── J1455-3330_noise.json
+│   │   ├── J1600-3053_noise.json
+│   │   ├── J1640+2224_noise.json
+│   │   ├── J1713+0747_noise.json
+│   │   ├── J1730-2304_noise.json
+│   │   ├── J1738+0333_noise.json
+│   │   ├── J1744-1134_noise.json
+│   │   ├── J1751-2857_noise.json
+│   │   ├── J1801-1417_noise.json
+│   │   ├── J1804-2717_noise.json
+│   │   ├── J1843-1113_noise.json
+│   │   ├── J1857+0943_noise.json
+│   │   ├── J1909-3744_noise.json
+│   │   ├── J1910+1256_noise.json
+│   │   ├── J1911+1347_noise.json
+│   │   ├── J1918-0642_noise.json
+│   │   ├── J2124-3358_noise.json
+│   │   ├── J2322+2057_noise.json
+│   │   └── red_dict.json
+│   └── DR2new+/
+│       ├── chrom_dict.json
+│       ├── dm_dict.json
+│       ├── J0030+0451_noise.json
+│       ├── J0613-0200_noise.json
+│       ├── J0751+1807_noise.json
+│       ├── J0900-3144_noise.json
+│       ├── J1012+5307_noise.json
+│       ├── J1022+1001_noise.json
+│       ├── J1024-0719_noise.json
+│       ├── J1455-3330_noise.json
+│       ├── J1600-3053_noise.json
+│       ├── J1640+2224_noise.json
+│       ├── J1713+0747_noise.json
+│       ├── J1730-2304_noise.json
+│       ├── J1738+0333_noise.json
+│       ├── J1744-1134_noise.json
+│       ├── J1751-2857_noise.json
+│       ├── J1801-1417_noise.json
+│       ├── J1804-2717_noise.json
+│       ├── J1843-1113_noise.json
+│       ├── J1857+0943_noise.json
+│       ├── J1909-3744_noise.json
+│       ├── J1910+1256_noise.json
+│       ├── J1911+1347_noise.json
+│       ├── J1918-0642_noise.json
+│       ├── J2124-3358_noise.json
+│       ├── J2322+2057_noise.json
+│       └── red_dict.json
+├── README
+└── scripts/
+    ├── model_comparison.py
+    └── model_single.py

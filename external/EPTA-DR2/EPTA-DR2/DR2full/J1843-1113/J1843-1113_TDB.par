@@ -1,0 +1,58 @@
+# Created: 2025-02-24T10:41:08.050070
+# PINT_version: 1.1.1
+# User: haydert
+# Host: Hayders-Air.lan
+# OS: macOS-14.2.1-arm64-arm-64bit-Mach-O
+# Python: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+# Format: pint
+# read_time: 2025-02-24T10:41:08.023537
+# allow_tcb: True
+# convert_tcb: True
+# allow_T2: False
+PSRJ                           J1843-1113
+EPHEM                               DE440
+CLK                          TT(BIPM2021)
+UNITS                                 TDB
+START              53156.2123842976681270
+FINISH             59293.3926202479892250
+TIMEEPH                              FB90
+T2CMETHOD                        IAU2000B
+DILATEFREQ                              N
+DMDATA                                  N
+NTOA                                  893
+CHI2R                              6.5103 0 871.0
+TRES                                2.453
+RAJ                     18:43:41.26194080 1 0.00000000181377548618
+DECJ                   -11:13:31.06763000 1 0.00000012171530951472
+PMRA                    -2.04345854514759 1 0.016225530771026606
+PMDEC                 -3.1297020867573133 1 0.07803104068278104
+PX                                    0.0
+POSEPOCH           54999.9998161703842925
+F0                      541.8097534370341 1 1.898831123441752e-11
+F1                -2.8056984028640965e-15 1 9.12801074364859e-20
+PEPOCH             54999.9998161703842925
+CORRECT_TROPOSPHERE                         Y
+PLANET_SHAPIRO                          Y
+NE_SW                   7.900000244982131
+NE_SW1                                0.0
+SWM                                     0
+DM                      59.93494569100012 1 0.004214801032999706
+DM1                -0.0009192469716934989 1 0.000518517557482985
+DM2                 -5.90768610929928e-05 1 7.900551415666286e-05
+DMEPOCH            54999.9998161703842925
+TZRMJD             56208.8063101775494675
+TZRSITE                              wsrt
+TZRFRQ                        1389.981631
+JUMP            -sys WSRT.P1.1380     0.0004370929750814069 1 0.0
+JUMP            -sys WSRT.P1.1380.C     0.0004365505483204073 1 0.0
+JUMP            -sys JBO.DFB.1520     0.0005224111466522717 1 0.0
+JUMP            -sys NRT.BON.1400     0.0004354028629139424 1 0.0
+JUMP            -sys WSRT.P2.1380     0.0008501727190474637 1 0.0
+JUMP            -sys JBO.ROACH.1420    6.4270205808643736e-06 1 0.0
+JUMP            -sys JBO.ROACH.1620    1.9773732105446367e-05 1 0.0
+JUMP            -sys EFF.P217.1380   -1.6854937550341854e-05 1 0.0
+JUMP            -sys EFF.S110.2487     7.892826295447765e-05 1 0.0
+JUMP            -sys NRT.NUPPI.1292   -1.1647011901261772e-05 1 0.0
+JUMP            -sys NRT.NUPPI.1420                       0.0 0 0.0
+JUMP            -sys NRT.NUPPI.1548     8.971754170688374e-06 1 0.0
+JUMP            -sys NRT.NUPPI.1676     1.891753461248688e-05 1 0.0
