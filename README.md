@@ -41,7 +41,8 @@ deactivate
 
 ## Usage
 
-````
+```
+
 pulsar.py -h
 RuntimeWarning: This platform does not support extended precision floating-point, and PINT will run at reduced precision.
 Detected 25 pulsars in EPTA dataset.
@@ -73,4 +74,5 @@ options:
   -v, --verbose         Enable verbose output
   -pn, --plot-normalized
                         Plot the normalized values
+
 ```
